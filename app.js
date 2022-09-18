@@ -19,14 +19,12 @@ addList.addEventListener("click", () => {
     input.focus();
 
     const lists = document.querySelectorAll(".secondarea p");
-    console.log(lists);
     lists.forEach((p) => {
       p.addEventListener("click", () => {
-        if ((p.className = "notselect")) {
+        if (p.className == "notselect") {
           p.classList.replace("notselect", "select");
-        } else {
-          p.classList.remove("select");
-          p.classList.add("notselect");
+        } else if (p.className == "select") {
+          p.classList.replace("select", "notselect");
         }
       });
     });
