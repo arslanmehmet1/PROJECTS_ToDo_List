@@ -1,0 +1,28 @@
+body {
+  background-image: linear-gradient(
+    to right,
+    rgb(98, 78, 111),
+    rgb(89, 38, 112)
+  );
+}
+
+/* body div.container {
+  background-color: purple;
+} */
+
+/* .btn-warning {
+  width: 10rem;
+} */
+
+button {
+  height: 3.2rem;
+  width: 100%;
+}
+
+.firstarea {
+  background-color: rgb(141, 101, 141);
+}
+.secondarea {
+  /* background-color: cornflowerblue; */
+  line-height: 2rem;
+}
