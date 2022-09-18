@@ -30,6 +30,7 @@ button {
   background-color: aqua;
   margin-top: 0.5rem;
   padding-left: 1rem;
+  text-decoration: none;
 }
 .select {
   text-decoration: line-through;
