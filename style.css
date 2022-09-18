@@ -26,3 +26,14 @@ button {
   /* background-color: cornflowerblue; */
   line-height: 2rem;
 }
+.notselect {
+  background-color: aqua;
+  margin-top: 0.5rem;
+  padding-left: 1rem;
+}
+.select {
+  text-decoration: line-through;
+  background-color: #ffca2c;
+  margin-top: 0.5rem;
+  padding-left: 1rem;
+}
