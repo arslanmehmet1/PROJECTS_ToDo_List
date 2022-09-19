@@ -44,12 +44,7 @@ delAll.addEventListener("click", () => {
   });
 });
 
-//? enter key and  del key event handler
-
 //? onload event handler
-// window.addEventListener("load", () => {
-//   langInput.focus();
-// });
-
-// div.classList.remove("foo");
-// div.classList.add("anotherclass");
+window.addEventListener("load", () => {
+  input.focus();
+});
