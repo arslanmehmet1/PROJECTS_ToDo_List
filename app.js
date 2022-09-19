@@ -5,7 +5,7 @@ const delList = document.querySelector(".btn-warning");
 const delAll = document.querySelector(".btn-danger");
 const area = document.querySelector(".secondarea");
 
-//? addBtn event handler
+//? Btn event handler
 
 addList.addEventListener("click", () => {
   if (!input.value) {
@@ -17,21 +17,32 @@ addList.addEventListener("click", () => {
     newP.classList.add("notselect");
     input.value = "";
     input.focus();
-
-    const lists = document.querySelectorAll(".secondarea p");
-    lists.forEach((p) => {
-      p.addEventListener("click", () => {
-        if (p.className == "notselect") {
-          p.classList.replace("notselect", "select");
-        } else if (p.className == "select") {
-          p.classList.replace("select", "notselect");
-        }
-      });
+    //? addBtn event handler
+    newP.addEventListener("click", () => {
+      if (newP.className == "notselect") {
+        newP.classList.replace("notselect", "select");
+      } else if (newP.className == "select") {
+        newP.classList.replace("select", "notselect");
+      }
     });
   }
 });
 
 //? deleteBtn event handler
+delList.addEventListener("click", () => {
+  const lists = document.querySelectorAll(".secondarea .select");
+  lists.forEach((p) => {
+    p.remove();
+  });
+});
+
+//? deleteAllBtn event handler
+delAll.addEventListener("click", () => {
+  const lists = document.querySelectorAll(".secondarea p");
+  lists.forEach((p) => {
+    p.remove();
+  });
+});
 
 //? enter key and  del key event handler
 

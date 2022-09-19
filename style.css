@@ -31,10 +31,12 @@ button {
   margin-top: 0.5rem;
   padding-left: 1rem;
   text-decoration: none;
+  cursor: pointer;
 }
 .select {
   text-decoration: line-through;
   background-color: #ffca2c;
   margin-top: 0.5rem;
   padding-left: 1rem;
+  cursor: pointer;
 }
