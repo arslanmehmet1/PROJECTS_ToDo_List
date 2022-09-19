@@ -42,5 +42,5 @@ button {
 }
 .secondarea p:hover {
   transform: scale(1.03);
-  box-shadow: 3px 3px 5px rgb(169, 150, 150);
+  box-shadow: 3px 3px 5px rgb(152, 137, 137);
 }
