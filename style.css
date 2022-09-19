@@ -28,15 +28,19 @@ button {
 }
 .notselect {
   background-color: aqua;
-  margin-top: 0.5rem;
-  padding-left: 1rem;
   text-decoration: none;
-  cursor: pointer;
 }
 .select {
   text-decoration: line-through;
   background-color: #ffca2c;
+}
+.secondarea p {
   margin-top: 0.5rem;
   padding-left: 1rem;
   cursor: pointer;
+  transition: all 0.5s;
+}
+.secondarea p:hover {
+  transform: scale(1.03);
+  box-shadow: 3px 3px 5px rgb(169, 150, 150);
 }
