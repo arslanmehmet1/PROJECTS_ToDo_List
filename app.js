@@ -48,3 +48,10 @@ delAll.addEventListener("click", () => {
 window.addEventListener("load", () => {
   input.focus();
 });
+
+//? enter event handler
+input.addEventListener("keydown", (e) => {
+  if (e.code === "Enter") {
+    addList.click();
+  }
+});
