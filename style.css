@@ -38,6 +38,7 @@ button {
   margin-top: 0.5rem;
   padding-left: 1rem;
   cursor: pointer;
+  word-wrap: break-word;
   transition: all 0.5s;
 }
 .secondarea p:hover {
